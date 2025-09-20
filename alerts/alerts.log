@@ -136,3 +136,99 @@ User bob triggered anomalies ['Unusual login location'] at USA.
 User bob triggered anomalies ['Large data transfer'] at Delhi.
 User alice triggered anomalies ['Large data transfer'] at Delhi.
 User bob triggered anomalies ['Login spike detected'] at Delhi.
+User bob triggered anomalies ['Large data transfer'] at Delhi.
+User alice triggered anomalies ['Large data transfer'] at Delhi.
+User bob triggered anomalies ['Login spike detected'] at Delhi.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User alice triggered anomalies ['Unusual login location', 'Large data transfer'] at Russia.
+User charlie triggered anomalies ['Unusual login location', 'Large data transfer'] at Russia.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at USA.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User charlie triggered anomalies ['Large data transfer'] at Delhi.
+User bob triggered anomalies ['Large data transfer'] at Delhi.
+User alice triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User charlie triggered anomalies ['Large data transfer'] at Delhi.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User bob triggered anomalies ['Unusual login location'] at Russia.
+User charlie triggered anomalies ['Unusual login location', 'Large data transfer'] at USA.
+User charlie triggered anomalies ['Login spike detected'] at Delhi.
+User bob triggered anomalies ['Unusual login location', 'Large data transfer'] at USA.
+User bob triggered anomalies ['Unusual login location'] at USA.
+User alice triggered anomalies ['Login spike detected', 'Large data transfer'] at Delhi.
+User bob triggered anomalies ['Unusual login location', 'Large data transfer'] at Russia.
+User bob triggered anomalies ['Login spike detected'] at Mumbai.
+User alice triggered anomalies ['Large data transfer'] at Mumbai.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User charlie triggered anomalies ['Login spike detected', 'Large data transfer'] at Mumbai.
+User alice triggered anomalies ['Login spike detected'] at Delhi.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User alice triggered anomalies ['Unusual login location'] at USA.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User charlie triggered anomalies ['Unusual login location'] at Russia.
+User charlie triggered anomalies ['Large data transfer'] at Mumbai.
+User charlie triggered anomalies ['Large data transfer'] at Delhi.
+User bob triggered anomalies ['Login spike detected'] at Delhi.
+User alice triggered anomalies ['Unusual login location'] at USA.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at USA.
+User bob triggered anomalies ['Unusual login location', 'Large data transfer'] at USA.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User alice triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at USA.
+User alice triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User charlie triggered anomalies ['Login spike detected'] at Delhi.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at Russia.
+User alice triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+User charlie triggered anomalies ['Login spike detected'] at Delhi.
+User bob triggered anomalies ['Unusual login location'] at USA.
+User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User charlie triggered anomalies ['Large data transfer'] at Mumbai.
+User bob triggered anomalies ['Login spike detected'] at Delhi.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at USA.
+User alice triggered anomalies ['Login spike detected', 'Large data transfer'] at Mumbai.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at USA.
+User bob triggered anomalies ['Unusual login location'] at Russia.
+User bob triggered anomalies ['Login spike detected'] at Mumbai.
+User bob triggered anomalies ['Login spike detected'] at Mumbai.
+User bob triggered anomalies ['Large data transfer'] at Mumbai.
+User alice triggered anomalies ['Login spike detected'] at Mumbai.
+User charlie triggered anomalies ['Unusual login location', 'Large data transfer'] at USA.
+User bob triggered anomalies ['Login spike detected'] at Mumbai.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+User bob triggered anomalies ['Login spike detected'] at Mumbai.
+User charlie triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at Russia.
+User charlie triggered anomalies ['Login spike detected', 'Large data transfer'] at Mumbai.
+User charlie triggered anomalies ['Login spike detected', 'Large data transfer'] at Mumbai.
+User bob triggered anomalies ['Login spike detected'] at Delhi.
+User bob triggered anomalies ['Large data transfer'] at Delhi.
+User bob triggered anomalies ['Unusual login location'] at Russia.
+[LOW] User bob triggered anomalies ['Unusual login location'] at Russia.
+[LOW] User alice triggered anomalies ['Large data transfer'] at Delhi.
+[LOW] User alice triggered anomalies ['Login spike detected'] at Delhi.
+[MEDIUM] User alice triggered anomalies ['Login spike detected', 'Large data transfer'] at Delhi.
+[MEDIUM] User alice triggered anomalies ['Login spike detected', 'Large data transfer'] at Delhi.
+[MEDIUM] User bob triggered anomalies ['Login spike detected', 'Large data transfer'] at Delhi.
+[MEDIUM] User bob triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+[MEDIUM] User charlie triggered anomalies ['Unusual login location', 'Large data transfer'] at Russia.
+[MEDIUM] User charlie triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+[LOW] User alice triggered anomalies ['Large data transfer'] at Mumbai.
+[LOW] User bob triggered anomalies ['Unusual login location'] at USA.
+[LOW] User bob triggered anomalies ['Login spike detected'] at Mumbai.
+[MEDIUM] User alice triggered anomalies ['Unusual login location', 'Login spike detected'] at Russia.
+[MEDIUM] User bob triggered anomalies ['Login spike detected', 'Large data transfer'] at Mumbai.
+[LOW] User alice triggered anomalies ['Login spike detected'] at Mumbai.
+[MEDIUM] User alice triggered anomalies ['Login spike detected', 'Large data transfer'] at Mumbai.
+[MEDIUM] User charlie triggered anomalies ['Unusual login location', 'Large data transfer'] at Russia.
+[LOW] User alice triggered anomalies ['Unusual login location'] at Russia.
+[LOW] User alice triggered anomalies ['Login spike detected'] at Mumbai.
+[LOW] User alice triggered anomalies ['Unusual login location'] at Russia.
+[HIGH] User bob triggered anomalies ['Unusual login location', 'Login spike detected', 'Large data transfer'] at USA.
+[LOW] User bob triggered anomalies ['Large data transfer'] at Mumbai.
+[LOW] User charlie triggered anomalies ['Login spike detected'] at Mumbai.
+[LOW] User charlie triggered anomalies ['Login spike detected'] at Delhi.
+[MEDIUM] User alice triggered anomalies ['Unusual login location', 'Login spike detected'] at USA.
+[MEDIUM] User bob triggered anomalies ['Unusual login location', 'Large data transfer'] at USA.
+[LOW] User bob triggered anomalies ['Large data transfer'] at Delhi.

@@ -40,11 +40,30 @@ for message in consumer:
 
     if anomalies:
         explanation = generate_explanation(event, anomalies)
-        print("🚨 ALERT:", explanation)
-        send_slack_alert(explanation)
 
-        # 👇 Save alert to log file for dashboard
+        # --- Severity logic ---
+        if len(anomalies) >= 3:
+            severity = "HIGH"
+        elif len(anomalies) == 2:
+            severity = "MEDIUM"
+        else:
+            severity = "LOW"
+
+        alert_msg = f"[{severity}] {explanation}"
+
+        # Print with severity-based symbols
+        if severity == "HIGH":
+            print(f"🚨 {alert_msg}")
+        elif severity == "MEDIUM":
+            print(f"⚠️ {alert_msg}")
+        else:
+            print(f"ℹ️ {alert_msg}")
+
+        # Send Slack alert
+        send_slack_alert(alert_msg)
+
+        # Save to log for dashboard
         with open(alerts_log, "a", encoding="utf-8") as f:
-            f.write(explanation + "\n")
+            f.write(alert_msg + "\n")
     else:
         print("✅ Normal event:", event)
